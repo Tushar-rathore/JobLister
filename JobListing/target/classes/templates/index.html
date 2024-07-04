@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Listing App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <h1>Job Listing App</h1>
+</header>
+
+<main>
+    <section id="home">
+        <h2>Welcome to Job Listing App</h2>
+        <p>Explore and search job listings below:</p>
+        <div class="job-listings">
+            <!-- Job listings will be displayed here -->
+        </div>
+    </section>
+
+    <section id="search">
+        <h2>Search Job Listings</h2>
+        <input type="text" id="searchInput" placeholder="Search by text...">
+        <button>Search</button>
+    </section>
+    <section id="getdata">
+        <h2>get all Job Listings</h2>
+        <button>get all post</button>
+    </section>
+
+    <section id="add">
+        <h2>Add a New Job Listing</h2>
+        <input type="text" id="titleInput" placeholder="Title">
+        <input type="text" id="descriptionInput" placeholder="Description">
+        <input type="text" id="profileInput" placeholder="Profile">
+        <input type="text" id="descInput" placeholder="Description">
+        <input type="number" id="expInput" placeholder="Experience">
+        <input type="text" id="techsInput" placeholder="Technologies (comma-separated)">
+        <button>Add Post</button>
+    </section>
+
+    <section id="response" class="output-box">
+        <!-- Response will be displayed here -->
+    </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
