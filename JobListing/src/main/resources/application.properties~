@@ -1,0 +1,2 @@
+ spring.data.mongodb.uri=mongodb+srv://test:test@learning-project.kbxaiif.mongodb.net/
+spring.data.mongodb.database=Tushar

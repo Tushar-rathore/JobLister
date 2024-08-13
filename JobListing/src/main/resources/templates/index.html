@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Thymeleaf Example</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}">
+</head>
+<body>
+<h1>Welcome to Thymeleaf</h1>
+<form action="#" th:action="@{/process}" method="post">
+    <label for="name">Enter your name:</label>
+    <input type="text" id="name" name="name" />
+    <button type="submit">Submit</button>
+</form>
+</body>
+</html>
